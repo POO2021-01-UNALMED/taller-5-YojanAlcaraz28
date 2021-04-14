@@ -9,6 +9,7 @@ public class Ave extends Animal {
 	public static int halcones;
 	public static int aguilas;
 	private String colorPlumas;
+	public static int aves;
 	
 	public Ave(String nombre,int edad,String habitat,String genero,String colorPlumas) {
 		super.setNombre(nombre);
@@ -20,6 +21,7 @@ public class Ave extends Animal {
 	} 
 	
 	public Ave() {
+		aves++;
 		
 	}
 
@@ -50,7 +52,7 @@ public class Ave extends Animal {
 	// Métodos.
 	
 	public static int cantidadAves() {
-		return listado.size();
+		return listado.size() + aves;
 	}
 	
 	public static Ave crearHalcon(String nombre, int edad, String genero) {

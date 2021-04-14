@@ -10,6 +10,7 @@ public class Anfibio extends Animal{
 	public static int salamandras;
 	private String colorPiel;
 	private boolean venenoso;
+	public static int anfibios;
 	
 	/*public Anfibio(ArrayList<Anfibio> listado,int ranas,int salamandras,String colorPiel,boolean venenoso,int totalAnimales,String nombre,int edad,String habitat,String genero,ArrayList<Zona> zonas) {
 		super(totalAnimales,nombre,edad,habitat,genero,zonas);
@@ -31,11 +32,12 @@ public class Anfibio extends Animal{
 	}
 	
 	public Anfibio() {
+		anfibios++;
 	
 	}
 	
 	public static int cantidadAnfibios() {
-		return listado.size();
+		return listado.size() + anfibios;
 		
 	}
 

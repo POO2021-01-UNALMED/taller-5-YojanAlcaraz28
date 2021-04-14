@@ -10,6 +10,7 @@ public class Pez extends Animal {
 	public static int bacalaos;
 	private String colorEscamas;
 	private int cantidadAletas;
+	public static int peces;
 	
 	public Pez(String nombre,int edad,String habitat,String genero,String colorEscamas,int cantidadAletas) {
 		super.setNombre(nombre);
@@ -22,6 +23,7 @@ public class Pez extends Animal {
 	}
 	
 	public Pez() {
+		peces++;
 		
 	}
 
@@ -56,7 +58,7 @@ public class Pez extends Animal {
 	}
 	
 	public static int cantidadPeces() {
-		return listado.size();
+		return listado.size() + peces;
 	}
 	
 	public static Pez crearSalmon(String nombre, int edad, String genero) {

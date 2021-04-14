@@ -10,6 +10,7 @@ public class Mamifero extends Animal {
 	public static int leones;
 	private boolean pelaje;
 	private int patas;
+	public static int mamiferos;
 
 	public Mamifero(String nombre, int edad, String habitat, String genero, boolean pelaje, int patas) {
 		super.setNombre(nombre);
@@ -24,11 +25,12 @@ public class Mamifero extends Animal {
 	}
 
 	public Mamifero() {
+		mamiferos++;
 
 	}
 	
 	public static int cantidadMamiferos() {
-		return listado.size();
+		return listado.size() + mamiferos;
 	}
 
 	// Getters y setters.

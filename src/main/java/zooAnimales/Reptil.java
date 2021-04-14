@@ -10,6 +10,7 @@ public class Reptil extends Animal{
 	public static int serpientes;
 	private String colorEscamas;
 	private int largoCola;
+	public static int reptiles;
 	
 	public Reptil(String nombre,int edad,String habitat,String genero,String colorEscamas,int largoCola) {
 		super.setNombre(nombre);
@@ -22,6 +23,7 @@ public class Reptil extends Animal{
 	}
 	
 	public Reptil() {
+		reptiles++;
 		
 	}
 
@@ -58,7 +60,7 @@ public class Reptil extends Animal{
 	//Metodos.
 	
 	public static int cantidadReptiles() {
-		return listado.size();
+		return listado.size() + reptiles;
 	}
 
 	public static Reptil crearIguana(String nombre, int edad, String genero) {
