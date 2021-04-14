@@ -33,6 +33,11 @@ public class Anfibio extends Animal{
 	public Anfibio() {
 	
 	}
+	
+	public static int cantidadAnfibios() {
+		return listado.size();
+		
+	}
 
 	// Getters y setters.
 	
@@ -64,10 +69,6 @@ public class Anfibio extends Animal{
 		return "saltar";
 	}
 	
-	public static int cantidadAnfibios() {
-		return listado.size();
-		
-	}
 	
 	public static Anfibio crearRana(String nombre, int edad, String genero) {
 		Anfibio rana1 = new Anfibio(nombre,edad,"selva",genero,"rojo",true);
