@@ -16,13 +16,19 @@ public class Mamifero extends Animal {
 		super.setEdad(edad);
 		super.setHabitat(habitat);
 		super.setGenero(genero);
-		this.setPelaje(pelaje);
-		this.setPatas(patas);
+		//this.setPelaje(pelaje);
+		this.pelaje = pelaje;
+		this.patas = patas;
+		//this.setPatas(patas);
 		listado.add(this);
 	}
 
 	public Mamifero() {
 
+	}
+	
+	public static int cantidadMamiferos() {
+		return listado.size();
 	}
 
 	// Getters y setters.
@@ -52,20 +58,18 @@ public class Mamifero extends Animal {
 	}
 
 	public static Mamifero crearCaballo(String nombre, int edad, String genero) {
-		Mamifero caballo1 = new Mamifero(nombre,edad,"pradera",genero,true,4);
+		Mamifero caballo1 = new Mamifero(nombre, edad, "pradera", genero, true, 4);
 		caballos++;
 		return caballo1;
 
 	}
 
 	public static Mamifero crearLeon(String nombre, int edad, String genero) {
-		Mamifero leon1 = new Mamifero(nombre,edad,"selva",genero,true,4);
+		Mamifero leon1 = new Mamifero(nombre, edad, "selva", genero, true, 4);
 		leones++;
 		return leon1;
-		}
-	
-	public static int cantidadMamiferos() {
-		return listado.size();
 	}
+
 	
-	}
+
+}
