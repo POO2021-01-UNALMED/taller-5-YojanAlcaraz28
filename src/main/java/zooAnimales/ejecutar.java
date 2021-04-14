@@ -16,6 +16,7 @@ public class ejecutar {
 		Zona zona2 = new Zona("salvaje", zoo1);
 		System.out.println(zona2.getNombre());*/
 		System.out.println(an2.toString());
+		System.out.println(Animal.totalPorTipo());
 		
 		
 		
