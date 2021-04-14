@@ -49,7 +49,7 @@ public class Ave extends Animal {
 
 	// Métodos.
 	
-	public int cantidadAves() {
+	public static int cantidadAves() {
 		return listado.size();
 	}
 	
