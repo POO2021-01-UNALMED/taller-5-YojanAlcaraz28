@@ -19,7 +19,7 @@ public class ejecutar {
 		/*System.out.println(an2.toString());
 		System.out.println(Animal.totalPorTipo());*/
 		
-		Zona z1 = new Zona();
+		/*Zona z1 = new Zona();
 		Zona z2 = new Zona();
 		zoo.agregarZonas(z1);
 		zoo.agregarZonas(z2);
@@ -42,7 +42,7 @@ public class ejecutar {
 		Reptil.crearIguana("test", 11, "M");
 		Pez.crearBacalao("test", 11, "M");
 		
-		System.out.println(Mamifero.caballos == 3 && Mamifero.leones == 1);
+		System.out.println(Mamifero.caballos == 3 && Mamifero.leones == 1);*/
 
 	}
 	
