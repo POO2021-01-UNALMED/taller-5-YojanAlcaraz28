@@ -7,6 +7,7 @@ public class ejecutar {
 	public static void main(String[] args) {
 		Anfibio an1 = new Anfibio();
 		Anfibio an2 = new Anfibio("rana", 5, "pradera", "F","verde", false);
+		Pez an3 = new Pez("payaso", 5, "mar", "F", "azul", 3);
 		/*System.out.println(an1.getNombre());
 		System.out.println(an2.getNombre());
 		Mamifero cab1 = new Mamifero("vaca",6,"pradera","F",false,2);

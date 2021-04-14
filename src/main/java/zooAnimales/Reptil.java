@@ -18,6 +18,7 @@ public class Reptil extends Animal{
 		super.setGenero(genero);
 		this.colorEscamas = colorEscamas;
 		this.largoCola = largoCola;
+		listado.add(this);
 	}
 	
 	public Reptil() {

@@ -18,6 +18,7 @@ public class Mamifero extends Animal {
 		super.setGenero(genero);
 		this.setPelaje(pelaje);
 		this.setPatas(patas);
+		listado.add(this);
 	}
 
 	public Mamifero() {

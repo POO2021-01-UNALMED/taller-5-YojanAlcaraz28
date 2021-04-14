@@ -27,6 +27,7 @@ public class Anfibio extends Animal{
 		super.setGenero(genero);
 		this.setColorPiel(colorPiel);
 		this.setVenenoso(venenoso);
+		listado.add(this);
 	}
 	
 	public Anfibio() {

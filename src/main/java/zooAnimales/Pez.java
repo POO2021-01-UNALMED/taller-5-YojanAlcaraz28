@@ -17,7 +17,8 @@ public class Pez extends Animal {
 		super.setHabitat(habitat);
 		super.setGenero(genero);
 		this.colorEscamas = colorEscamas;
-		this.cantidadAletas = cantidadAletas; 
+		this.cantidadAletas = cantidadAletas;
+		listado.add(this);
 	}
 	
 	public Pez() {
